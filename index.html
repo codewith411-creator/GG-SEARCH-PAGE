@@ -1,263 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Google Homepage</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
-
-body{
-    background:#fff;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-}
-
-header{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-    gap:20px;
-    padding:18px 24px;
-}
-
-header a{
-    text-decoration:none;
-    color:#202124;
-    font-size:14px;
-}
-
-.apps{
-    font-size:22px;
-    cursor:pointer;
-}
-
-.signin{
-    background:#1a73e8;
-    color:white;
-    border:none;
-    padding:10px 24px;
-    border-radius:20px;
-    cursor:pointer;
-    font-size:14px;
-}
-
-/* Main */
-main{
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    margin-top:-80px;
-}
-
-/* Google Logo */
-.logo{
-    font-size:110px;
-    font-weight:500;
-    letter-spacing:-4px;
-    margin-bottom:35px;
-    user-select:none;
-}
-
-.blue{color:#4285F4;}
-.red{color:#EA4335;}
-.yellow{color:#FBBC05;}
-.green{color:#34A853;}
-
-/* Search Bar */
-.search-container{
-    width:940px;
-    max-width:90%;
-    height:62px;
-    border:1px solid #dfe1e5;
-    border-radius:35px;
-    display:flex;
-    align-items:center;
-    padding:0 20px;
-    box-shadow:0 1px 6px rgba(32,33,36,.15);
-}
-
-.search-container:hover{
-    box-shadow:0 2px 10px rgba(32,33,36,.20);
-}
-
-.search-icon{
-    font-size:22px;
-    color:#9aa0a6;
-    margin-right:15px;
-}
-
-.search-box{
-    flex:1;
-    border:none;
-    outline:none;
-    font-size:18px;
-}
-
-.search-box::placeholder{
-    color:#5f6368;
-}
-
-.search-actions{
-    display:flex;
-    align-items:center;
-    gap:18px;
-}
-
-.action-icon{
-    font-size:22px;
-    cursor:pointer;
-}
-
-.ai-mode{
-    border:none;
-    background:#f1f3f4;
-    border-radius:25px;
-    padding:10px 18px;
-    font-size:16px;
-    cursor:pointer;
-}
-
-.ai-mode:hover{
-    background:#e8eaed;
-}
-
-/* Buttons */
-.buttons{
-    margin-top:30px;
-}
-
-.buttons button{
-    border:none;
-    background:#f8f9fa;
-    padding:10px 20px;
-    margin:0 5px;
-    border-radius:4px;
-    cursor:pointer;
-    font-size:14px;
-}
-
-.buttons button:hover{
-    border:1px solid #dadce0;
-}
-
-/* Language */
-.language{
-    margin-top:25px;
-    font-size:14px;
-    color:#4d5156;
-}
-
-.language a{
-    color:#1a0dab;
-    text-decoration:none;
-}
-
-/* Footer */
-footer{
-    background:#f2f2f2;
-}
-
-.country{
-    padding:15px 30px;
-    border-bottom:1px solid #dadce0;
-    color:#70757a;
-}
-
-.footer-links{
-    display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    padding:15px 30px;
-}
-
-.footer-links a{
-    text-decoration:none;
-    color:#70757a;
-    margin-right:20px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
 </head>
 
-<body>
+<body bgcolor="white">
 
-<header>
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
-    <span class="apps">⋮⋮⋮</span>
-    <button class="signin">Sign in</button>
-</header>
+  <br><br><br><br><br>
 
-<main>
+  <center>
 
-    <div class="logo">
-        <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
-    </div>
+    <font face="Arial" size="7">
+      <b>
+        <font color="#4285F4">G</font>
+        <font color="#EA4335">o</font>
+        <font color="#FBBC05">o</font>
+        <font color="#4285F4">g</font>
+        <font color="#34A853">l</font>
+        <font color="#EA4335">e</font>
+      </b>
+    </font>
 
-    <div class="search-container">
+    <br><br>
 
-        <span class="search-icon">🔍</span>
+    <form action="#" method="get">
 
-        <input
-            type="text"
-            class="search-box"
-            placeholder="Search Google or type a URL"
-        >
+      <input
+        type="text"
+        name="search"
+        size="60"
+        aria-label="Search"
+      >
 
-        <div class="search-actions">
-            <span class="action-icon">🎤</span>
-            <span class="action-icon">📷</span>
+      <br><br>
 
-            <button class="ai-mode">✦ AI Mode</button>
-        </div>
+      <input type="submit" value="Google Search">
 
-    </div>
+      <input type="button" value="I'm Feeling Lucky">
 
-    <div class="buttons">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-    </div>
+    </form>
 
-    <div class="language">
-        Google offered in:
-        <a href="#">Kiswahili</a>
-    </div>
+  </center>
 
-</main>
+  <br><br><br><br><br><br><br><br><br><br>
 
-<footer>
+  <hr>
 
-    <div class="country">
-        Kenya
-    </div>
+  <table width="100%">
+    <tr>
+      <td>Kenya</td>
+    </tr>
+  </table>
 
-    <div class="footer-links">
+  <hr>
 
-        <div>
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
-        </div>
+  <table width="100%">
+    <tr>
+      <td>
+        <a href="#">About</a>&nbsp;&nbsp;
+        <a href="#">Advertising</a>&nbsp;&nbsp;
+        <a href="#">Business</a>&nbsp;&nbsp;
+        <a href="#">How Search works</a>
+      </td>
 
-        <div>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </div>
-
-    </div>
-
-</footer>
+      <td align="right">
+        <a href="#">Privacy</a>&nbsp;&nbsp;
+        <a href="#">Terms</a>&nbsp;&nbsp;
+        <a href="#">Settings</a>
+      </td>
+    </tr>
+  </table>
 
 </body>
 </html>
