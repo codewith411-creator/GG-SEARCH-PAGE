@@ -1,2 +1,3 @@
-# GGSEARCHPAGE
-This is google search page made using html
+## Google Search Page
+
+ - How to create a google search page using html only.
